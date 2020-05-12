@@ -7,9 +7,9 @@ module.exports = function (authToken) {
   return function (content) {
     appendLog('Send whatsApp Message with relevant Stock Name');
     return client.messages.create({
-      from: 'whatsapp:+14155238886',
+      //from: 'whatsapp:+',
       body: content,
-      to: 'whatsapp:+436642790379'
+      to: 'whatsapp:+'
     })
   }
 }
