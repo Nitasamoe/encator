@@ -6,7 +6,9 @@ const R = require('ramda');
 
 // Internal Imports
 const appendLog = require('./logUtil');
-const { stockSymbols } = require('./stockNames');
+const {
+  stockSymbols
+} = require('./stockNames');
 const getStockData = require('./stockQuery');
 const computeData = require('./computeStockData');
 const {
