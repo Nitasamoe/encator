@@ -16,7 +16,7 @@ const {
   callInstructionOnFirstElementInArrayAndShift,
   refillStockArray,
 } = require('./utilFns');
-const config = require('./config');
+const config = require('./Config');
 const sendWhatsApp = require('./twilio')(process.env.TWILIO_KEY);
 
 // APP SETUP ----------------------------------------------------------------------
